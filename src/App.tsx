@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import AppLayout from "./components/Layout/Layout";
-import CarListPage from "./pages/CarListPage/CarListPage";
+import AppLayout from "./components/Layout";
+import CarListPage from "./pages/CarListPage";
 
 const App = () => (
   <Router>

@@ -1,4 +1,4 @@
-import PageHeader from "./components/PageHeader/PageHeader";
+import PageHeader from "./components/PageHeader";
 import { CarModel, mockData, mockFilterData } from "../../models/model";
 import CarList from "./components/CarList";
 import FilterMenus from "./components/FilterMenu";
