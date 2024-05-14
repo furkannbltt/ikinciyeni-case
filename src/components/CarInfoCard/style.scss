@@ -1,0 +1,80 @@
+.car-info-card-container {
+    min-height: 7rem;
+    max-height: 8rem;
+    height: auto;
+    display: flex;
+    gap: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #E7EAE8;
+    margin: 0.5rem 0.75rem;
+    
+    &:last-child {
+        border-bottom: none;
+    }
+
+    .image-side {
+        display: flex;
+
+        img {
+            border-radius: 0.5rem;
+            width: 13rem;
+            height: auto;
+        }
+    }
+
+    .info-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0.5rem 0;
+        margin-right: auto;
+
+        .title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-transform: uppercase;
+
+            svg {
+                color: #99A59F;
+            }
+        }
+
+        .bottom {
+            display: flex;
+
+            span {
+                border-right: 1px solid #E7EAE8;
+                padding: 0 0.5rem;
+
+                &:last-child {
+                    border-right: none;
+                }
+
+                &:first-child {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+
+    .purchasing-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: end;
+
+        .top {
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            flex-direction: column;
+
+            span {
+                display: flex;
+                align-items: center;
+                gap: 0.2rem;
+            }
+        }
+    }
+}

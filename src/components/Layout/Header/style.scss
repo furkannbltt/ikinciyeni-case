@@ -1,0 +1,72 @@
+$header-height: 72px;
+
+.app-header {
+    height: $header-height;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E7EAE8;
+    background-color: white;
+    width: -webkit-fill-available;
+
+    .logo-side {
+        display: flex;
+        border-left: 1px solid #E7EAE8;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: $header-height;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-right: 1px solid #E7EAE8;
+        }
+    }
+
+    .nav-list-side {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .link-wrapper {
+            display: flex;
+            align-items: center;
+            height: $header-height;
+
+            &:nth-child(6) {
+                border-right: 1px solid #E7EAE8;
+                padding-right: 1rem;
+            }
+
+            a {
+                color: #536259;
+                text-decoration: none;
+
+
+            }
+
+
+            &:hover {
+                a {
+                    color: #00BC70;
+                }
+
+                border-bottom: 2px solid #00BC70;
+            }
+
+            &.checked {
+                color: #00BC70;
+
+                a {
+                    color: #00BC70;
+                }
+
+                border-bottom: 2px solid #00BC70;
+            }
+
+        }
+
+
+    }
+}

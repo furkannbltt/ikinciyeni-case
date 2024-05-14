@@ -1,0 +1,26 @@
+$app-padding: 15%;
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+    .app-header {
+        position: fixed;
+        z-index: 100;
+        padding: 0 $app-padding;
+
+    }
+
+    .content-container {
+        overflow: hidden;
+        overflow-y: auto;
+        background: #F4F6F5;
+        display: block;
+        margin-top: 74px;
+        padding: 2rem $app-padding;
+        padding-bottom: 0;
+    }
+}

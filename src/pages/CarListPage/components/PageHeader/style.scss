@@ -1,0 +1,65 @@
+.page-header-container {
+    display: flex;
+    justify-content: space-between;
+
+    .action-side {
+        display: flex;
+        gap: 1.25rem;
+        align-items: center;
+        justify-content: center;
+
+        .item {
+            display: flex;
+            gap: 0.5rem;
+            color: #99A59F;
+            align-items: center;
+
+            &:first-child {
+                border-right: 1px solid #E7EAE8;
+                padding-right: 1rem;
+            }
+        }
+
+        .list-type-switcher {
+            display: flex;
+
+            .type {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #536259;
+                padding: 0.5rem;
+
+                &:hover {
+                    color: white;
+                    background: #536259;
+
+                    &:first-child {
+                        border-top-left-radius: 0.5rem;
+                        border-bottom-left-radius: 0.5rem;
+                    }
+
+                    &:last-child {
+                        border-top-right-radius: 0.5rem;
+                        border-bottom-right-radius: 0.5rem;
+                    }
+                }
+
+                &.checked {
+                    color: white;
+                    background: #536259;
+
+                    &:first-child {
+                        border-top-left-radius: 0.5rem;
+                        border-bottom-left-radius: 0.5rem;
+                    }
+
+                    &:last-child {
+                        border-top-right-radius: 0.5rem;
+                        border-bottom-right-radius: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}

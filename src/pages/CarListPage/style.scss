@@ -1,0 +1,19 @@
+.card-list-page-container {
+    display: flex;
+    flex-direction: column;
+
+    .content {
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+
+        .filter-menus-container {
+            width: 25%;
+        }
+
+        .car-list-container {
+            width: calc(75% - 1rem);
+        }
+    }
+}

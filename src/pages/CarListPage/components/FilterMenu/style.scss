@@ -1,0 +1,64 @@
+.filter-menus-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.75rem;
+    border: 1px solid #E7EAE8;
+    border-radius: 0.5rem;
+    position: relative;
+    height: fit-content;
+
+    .filter-menu {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #E7EAE8;
+        padding: 0.75rem 0;
+
+        &:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            .option {
+                display: flex;
+                align-items: center;
+                gap: 0.25rem;
+            }
+        }
+
+        .range-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            margin: 1rem 0;
+
+            input {
+                max-width: 5rem;
+            }
+        }
+    }
+
+    .footer {
+        z-index: 10;
+        position: sticky;
+        border-top: 1px solid #E7EAE8;
+        margin: 0 -0.75rem;
+        padding: 0.75rem;
+        background: #F4F6F5;
+        bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
