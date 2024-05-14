@@ -1,4 +1,4 @@
-# Live Link: ###https://ikinciyenicase.netlify.app
+# Live Link: Open [https://ikinciyenicase.netlify.app](https://ikinciyenicase.netlify.app)
 
 # Getting Started with Create React App
 
